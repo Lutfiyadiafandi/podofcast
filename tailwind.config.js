@@ -3,7 +3,8 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      Roboto: ["Roboto", "sans-serif"],
+      Nunito: ["Nunito", "sans-serif"],
+      Kufam: ["Kufam", "sans-serif"],
     },
     screens: {
       sm: "640px",
@@ -18,7 +19,7 @@ export default {
       xl: "1240px",
       // => @media (min-width: 1280px) { ... }
 
-      "2xl": "1536px",
+      xxl: "1440px",
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
@@ -38,25 +39,37 @@ export default {
         "label-m": ["8px"],
       },
       boxShadow: {
-        ku: "0px 4px 8px 0px #00000033",
+        package: "0 4px 20px 0 rgba(29, 165, 153, 0.15)",
+        facilities: "0 4px 20px 0 rgba(0, 0, 0, 0.12)",
+      },
+      gridTemplateRows: {
+        gallery: "repeat(2, minmax(353px, 353px))",
       },
       colors: {
         primary: "#FFC265",
         secondary: "#C1FFFA",
+        "secondary-dark": "#1DA599",
         background: "#F3FFFE",
 
-        // NEUTRAL
         "basic-50": "#FFFFFF",
         "basic-100": "#3F3F3F",
         "basic-200": "#4A4A4A",
         "basic-300": "#454545",
         "basic-400": "#525252",
-
-        // "basic-500": "#737373",
-        // "basic-600": "#525252",
-        // "basic-700": "#404040",
-        // "basic-800": "#262626",
-        // "basic-900": "#171717",
+      },
+      keyframes: {
+        slideDown: {
+          "0%": { transform: "translateY(-100%)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
+        },
+        slideUp: {
+          "0%": { transform: "translateY(0)", opacity: "1" },
+          "100%": { transform: "translateY(-100%)", opacity: "0" },
+        },
+      },
+      animation: {
+        slideDown: "slideDown 0.3s ease-out forwards",
+        slideUp: "slideUp 0.3s ease-out forwards",
       },
     },
   },

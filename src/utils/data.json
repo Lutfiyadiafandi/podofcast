@@ -1,0 +1,336 @@
+{
+  "header": {
+    "logo": {
+      "src": "images/logo.png",
+      "alt": "Logo Perusahaan"
+    },
+    "navigation": [
+      {
+        "name": "Home",
+        "link": "/"
+      },
+      {
+        "name": "Tentang Kami",
+        "link": "/tentang"
+      },
+      {
+        "name": "Layanan",
+        "link": "/layanan"
+      },
+      {
+        "name": "Blog",
+        "link": "/blog"
+      },
+      {
+        "name": "Kontak",
+        "link": "/kontak"
+      }
+    ]
+  },
+  "hero": {
+    "image": {
+      "src": "images/ImageHero.png",
+      "alt": "Image Hero"
+    },
+    "title": "Make it easy for your Umrah worship with Al Nasr Travel",
+    "subTitle": "Facilitate your Umrah pilgrimage with us, we already have hundreds of thousands of customers, you can go for Umrah to Mecca and Medina",
+    "tagline": "No. 1 in Indonesia",
+    "cta": {
+      "text": "Contact us",
+      "link": "/"
+    }
+  },
+  "about": {
+    "image": {
+      "src": "images/ImageAbout.png",
+      "alt": "Image About"
+    },
+    "title": "A Wonderful Agency To Fulfill your Dreams",
+    "subTitle": "The Hajj and Umrah pilgrimages are smooth, the heart is clean. we have been trusted since 2006 and have obtained a license from SAUDI ARABIA to become this travel agency.",
+    "benefits": [
+      {
+        "icon": "icons/Flight.svg",
+        "text": "Flight Jakarta Saudi - Saudi Jakarta"
+      },
+      {
+        "icon": "icons/Ticket.svg",
+        "text": "Tickets are included in the cost"
+      },
+      {
+        "icon": "icons/Hostel.svg",
+        "text": "Comfortable hotel with a rating of 4"
+      },
+      {
+        "icon": "icons/Visas.svg",
+        "text": "We cover the Visa Fee and it's Included"
+      }
+    ],
+    "cta": {
+      "text": "Learn more",
+      "link": "/"
+    },
+    "cta2": {
+      "text": "Contact us",
+      "link": "/"
+    }
+  },
+  "packages": {
+    "title": "Al Nasr Special Umrah and Hajj Packages",
+    "subTitle": "Choose your package according to your needs, guaranteed cheap and complete",
+    "package": [
+      {
+        "image": "images/ImagePackage.png",
+        "title": "Al Nasr Special Umrah 9 Days",
+        "price": "1.950",
+        "category": "Best Seller",
+        "class": "Bronze",
+        "includeEat": false
+      },
+      {
+        "image": "images/ImagePackage2.png",
+        "title": "Al Nasr Special Umrah 17 Days",
+        "price": "2.750",
+        "category": "Special Seller",
+        "class": "Silver",
+        "includeEat": false
+      },
+      {
+        "image": "images/ImagePackage3.png",
+        "title": "Al Nasr Special Umrah 25 Days",
+        "price": "4.250",
+        "category": "Long Trip",
+        "class": "Gold",
+        "includeEat": true
+      },
+      {
+        "image": "images/ImagePackage.png",
+        "title": "Al Nasr Special Hajj 30 Days",
+        "price": "20.000",
+        "category": "Best Seller",
+        "class": "Diamond",
+        "includeEat": true
+      },
+      {
+        "image": "images/ImagePackage2.png",
+        "title": "Al Nasr Special Hajj 30 Days",
+        "price": "25.000",
+        "category": "Special Offering",
+        "class": "Platinum",
+        "includeEat": true
+      }
+    ]
+  },
+  "airplanes": {
+    "title": "Airways Accomadation",
+    "subTitle": "We cooperate with several airlines for Umrah and Hajj",
+    "rating": "5.0",
+    "airplane": [
+      {
+        "image": "images/ImageAirplane.png"
+      },
+      {
+        "image": "images/ImageAirplane2.png"
+      },
+      {
+        "image": "images/ImageAirplane3.png"
+      },
+      {
+        "image": "images/ImageAirplane4.png"
+      },
+      {
+        "image": "images/ImageAirplane5.png"
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Facilities We Provide For You",
+    "subTitle": "We provide comfort for our customers, with the various facilities we provide that we provide",
+    "facility": [
+      {
+        "icon": "icons/Safety.svg",
+        "title": "Safety & Security",
+        "desc": "We take care of your security in 24 hours"
+      },
+      {
+        "icon": "icons/Conseling.svg",
+        "title": "Conseling",
+        "desc": "Provide counseling to stay fit spiritually and religius"
+      },
+      {
+        "icon": "icons/Vehicle.svg",
+        "title": "Vehicle In Saudi",
+        "desc": "Bus and Car Vehicles While in Saudi"
+      },
+      {
+        "icon": "icons/Health.svg",
+        "title": "Health In Saudi",
+        "desc": "Free Health Facilities for every customer"
+      },
+      {
+        "icon": "icons/Hostel.svg",
+        "title": "Hostel Rate 5",
+        "desc": "5 star hotel accommodation every customer"
+      },
+      {
+        "icon": "icons/Eat.svg",
+        "title": "Food & Drink",
+        "desc": "Provide food and drinks while in Saudi"
+      },
+      {
+        "icon": "icons/Membership.svg",
+        "title": "Membership",
+        "desc": "Obtain a membership card for each customer"
+      },
+      {
+        "icon": "icons/Vaccine.svg",
+        "title": "Vaccine",
+        "desc": "Free meningitis vaccine for all customers"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials from our customers",
+    "subTitle": "We have 100.000+ customers, here are our customer testimonials",
+    "testimoni": [
+      {
+        "image": "images/ImageTestimonial.png",
+        "name": "Adibah Khoirunnisa",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Umrah",
+        "rating": "5.0"
+      },
+      {
+        "image": "images/ImageTestimonial2.png",
+        "name": "Humaira Khaira",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Umrah",
+        "rating": "5.0"
+      },
+      {
+        "image": "images/ImageTestimonial3.png",
+        "name": "Hubi Khairuddin",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Umrah",
+        "rating": "5.0"
+      },
+      {
+        "image": "images/ImageTestimonial4.png",
+        "name": "Ray Gunawan",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Hajj Platinum",
+        "rating": "5.0"
+      },
+      {
+        "image": "images/ImageTestimonial.png",
+        "name": "Indra Pratama",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Hajj",
+        "rating": "5.0"
+      },
+      {
+        "image": "images/ImageTestimonial2.png",
+        "name": "Abd Al Jami’ah",
+        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
+        "class": "Al Nasr Hajj",
+        "rating": "5.0"
+      }
+    ]
+  },
+  "galleries": {
+    "title": "Gallery Footage In Saudi Arabia",
+    "subTitle": "We provide comfort for our customers, with the various facilities we provide that we provide",
+    "gallery": [
+      {
+        "image": "images/ImageGallery.png"
+      },
+      {
+        "image": "images/ImageGallery2.png"
+      },
+      {
+        "image": "images/ImageGallery3.png"
+      },
+      {
+        "image": "images/ImageGallery4.png"
+      },
+      {
+        "image": "images/ImageGallery5.png"
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "src": "icons/TextLogo.svg",
+      "alt": "Logo Al Nasr"
+    },
+    "about": "Comfortable and Quiet Worship, Our Service No. 1 in Indonesia",
+    "copyright": "Copyright © 2006 - 2023 Al Nasr Travel | All Reserverd",
+    "links": [
+      {
+        "name": "About Us",
+        "link": "/"
+      },
+      {
+        "name": "Flight Accommodation",
+        "link": "/"
+      },
+      {
+        "name": "Facilities",
+        "link": "/"
+      },
+      {
+        "name": "Gallery",
+        "link": "/"
+      }
+    ],
+    "packageUmrah": [
+      {
+        "name": "Al Nasr Umrah Bronze"
+      },
+      {
+        "name": "Al Nasr Umrah Silver"
+      },
+      {
+        "name": "Al Nasr Umrah Gold"
+      },
+      {
+        "name": "Al Nasr Umrah Priority"
+      }
+    ],
+    "packageHajj": [
+      {
+        "name": "Al Nasr Hajj Diamond"
+      },
+      {
+        "name": "Al Nasr Hajj Platinum"
+      },
+      {
+        "name": "Al Nasr Hajj Priority"
+      }
+    ],
+    "social": [
+      {
+        "platform": "Facebook",
+        "link": "https://facebook.com/perusahaan"
+      },
+      {
+        "platform": "Twitter",
+        "link": "https://twitter.com/perusahaan"
+      },
+      {
+        "platform": "LinkedIn",
+        "link": "https://linkedin.com/company/perusahaan"
+      }
+    ],
+    "place": [
+      {
+        "address": "Indonesia"
+      },
+      {
+        "address": "Saudi Arabia"
+      },
+      {
+        "address": "Uni Emirates Arab"
+      }
+    ]
+  }
+}
