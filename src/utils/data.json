@@ -1,8 +1,8 @@
 {
   "header": {
     "logo": {
-      "src": "images/logo.png",
-      "alt": "Logo Perusahaan"
+      "src": "images/Logo.png",
+      "alt": "Logo Skilline"
     },
     "navigation": [
       {
@@ -10,326 +10,246 @@
         "link": "/"
       },
       {
-        "name": "Tentang Kami",
-        "link": "/tentang"
-      },
-      {
-        "name": "Layanan",
-        "link": "/layanan"
+        "name": "Careers",
+        "link": "/careers"
       },
       {
         "name": "Blog",
         "link": "/blog"
       },
       {
-        "name": "Kontak",
-        "link": "/kontak"
+        "name": "About Us",
+        "link": "/aboutus"
       }
-    ]
+    ],
+    "button": {
+      "text": "Login"
+    },
+    "buttonSecond": {
+      "text": "Sign Up"
+    }
   },
   "hero": {
     "image": {
-      "src": "images/ImageHero.png",
+      "src": "images/Hero.png",
       "alt": "Image Hero"
     },
-    "title": "Make it easy for your Umrah worship with Al Nasr Travel",
-    "subTitle": "Facilitate your Umrah pilgrimage with us, we already have hundreds of thousands of customers, you can go for Umrah to Mecca and Medina",
-    "tagline": "No. 1 in Indonesia",
-    "cta": {
-      "text": "Contact us",
-      "link": "/"
+    "title": "Studying Online is now much easier",
+    "subTitle": "Skilline is an interesting platform that will teach you in more an interactive way",
+    "watch": "Watch how it works",
+    "button": {
+      "text": "Join for free"
     }
   },
-  "about": {
-    "image": {
-      "src": "images/ImageAbout.png",
-      "alt": "Image About"
-    },
-    "title": "A Wonderful Agency To Fulfill your Dreams",
-    "subTitle": "The Hajj and Umrah pilgrimages are smooth, the heart is clean. we have been trusted since 2006 and have obtained a license from SAUDI ARABIA to become this travel agency.",
-    "benefits": [
+  "companies": {
+    "title": "Trusted by 5,000+ Companies Worldwide",
+    "company": [
       {
-        "icon": "icons/Flight.svg",
-        "text": "Flight Jakarta Saudi - Saudi Jakarta"
+        "image": "images/Google.png"
       },
       {
-        "icon": "icons/Ticket.svg",
-        "text": "Tickets are included in the cost"
+        "image": "images/Netflix.png"
       },
       {
-        "icon": "icons/Hostel.svg",
-        "text": "Comfortable hotel with a rating of 4"
+        "image": "images/Airbnb.png"
       },
       {
-        "icon": "icons/Visas.svg",
-        "text": "We cover the Visa Fee and it's Included"
+        "image": "images/Amazon.png"
+      },
+      {
+        "image": "images/Facebook.png"
+      },
+      {
+        "image": "images/Grab.png"
+      }
+    ]
+  },
+  "allInOne": {
+    "title": "All-In-One Cloud Software.",
+    "subTitle": "Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.",
+    "supremacy": [
+      {
+        "image": "icons/Bill.svg",
+        "title": "Online Billing, Invoicing, & Contracts",
+        "description": "Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts"
+      },
+      {
+        "image": "icons/Schedule.svg",
+        "title": "Easy Scheduling & Attendance Tracking",
+        "description": "Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance"
+      },
+      {
+        "image": "icons/Tracking.svg",
+        "title": "Customer Tracking",
+        "description": "Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization "
+      }
+    ]
+  },
+  "whatIs": {
+    "title": "What is Skilline?",
+    "subTitle": "Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.",
+    "types": [
+      {
+        "image": "images/Instructor.png",
+        "text": "FOR INSTRUCTORS",
+        "button": {
+          "text": "Start a class today"
+        }
+      },
+      {
+        "image": "images/Student.png",
+        "text": "FOR STUDENTS",
+        "button": {
+          "text": "Enter access code"
+        }
       }
     ],
-    "cta": {
-      "text": "Learn more",
-      "link": "/"
-    },
-    "cta2": {
-      "text": "Contact us",
-      "link": "/"
+    "youCanDo": {
+      "image": {
+        "src": "images/YouCanDo.png",
+        "alt": "Image You Can Do"
+      },
+      "title": "Everything you can do in a physical classroom, you can do with Skilline",
+      "subTitle": "Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.",
+      "button": {
+        "text": "Learn more"
+      }
     }
   },
-  "packages": {
-    "title": "Al Nasr Special Umrah and Hajj Packages",
-    "subTitle": "Choose your package according to your needs, guaranteed cheap and complete",
-    "package": [
-      {
-        "image": "images/ImagePackage.png",
-        "title": "Al Nasr Special Umrah 9 Days",
-        "price": "1.950",
-        "category": "Best Seller",
-        "class": "Bronze",
-        "includeEat": false
-      },
-      {
-        "image": "images/ImagePackage2.png",
-        "title": "Al Nasr Special Umrah 17 Days",
-        "price": "2.750",
-        "category": "Special Seller",
-        "class": "Silver",
-        "includeEat": false
-      },
-      {
-        "image": "images/ImagePackage3.png",
-        "title": "Al Nasr Special Umrah 25 Days",
-        "price": "4.250",
-        "category": "Long Trip",
-        "class": "Gold",
-        "includeEat": true
-      },
-      {
-        "image": "images/ImagePackage.png",
-        "title": "Al Nasr Special Hajj 30 Days",
-        "price": "20.000",
-        "category": "Best Seller",
-        "class": "Diamond",
-        "includeEat": true
-      },
-      {
-        "image": "images/ImagePackage2.png",
-        "title": "Al Nasr Special Hajj 30 Days",
-        "price": "25.000",
-        "category": "Special Offering",
-        "class": "Platinum",
-        "includeEat": true
-      }
-    ]
+  "ourFeatures": {
+    "title": "Our Features",
+    "subTitle": "This very extraordinary feature, can make learning activities more efficient",
+    "features1": {
+      "image": "images/User.png",
+      "text": "A user interface designed for the classroom",
+      "option": [
+        {
+          "icon": "icons/Grid.svg",
+          "text": "Teachers don’t get lost in the grid view and have a dedicated Podium space."
+        },
+        {
+          "icon": "icons/Front.svg",
+          "text": "TA’s and presenters can be moved to the front of the class."
+        },
+        {
+          "icon": "icons/Class.svg",
+          "text": "Teachers can easily see all students and class data at one time."
+        }
+      ]
+    },
+    "features2": {
+      "image": "images/Tools.png",
+      "text": "Tools For Teachers And Learners",
+      "description": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
+    },
+    "features3": {
+      "image": "images/Quiz.png",
+      "text": "Assessments, Quizzes, Tests",
+      "description": "Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook."
+    },
+    "features4": {
+      "image": "images/ClassMan.png",
+      "text": "Class Management Tools for Educators",
+      "description": "Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time."
+    },
+    "features5": {
+      "image": "images/OneonOne.png",
+      "text": "One-on-One Discussions",
+      "description": "Teachers and teacher assistants can talk with students privately without leaving the Zoom environment."
+    }
   },
-  "airplanes": {
-    "title": "Airways Accomadation",
-    "subTitle": "We cooperate with several airlines for Umrah and Hajj",
-    "rating": "5.0",
-    "airplane": [
+  "integrations": {
+    "title": "200+ educational tools and platform integrations",
+    "subTitle": "Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.",
+    "button": {
+      "text": "See All Integrations"
+    },
+    "platforms": [
       {
-        "image": "images/ImageAirplane.png"
+        "image": "images/OneDrive.png"
       },
       {
-        "image": "images/ImageAirplane2.png"
+        "image": "images/Dropbox.png"
       },
       {
-        "image": "images/ImageAirplane3.png"
+        "image": "images/GDrive.png"
       },
       {
-        "image": "images/ImageAirplane4.png"
-      },
-      {
-        "image": "images/ImageAirplane5.png"
-      }
-    ]
-  },
-  "facilities": {
-    "title": "Facilities We Provide For You",
-    "subTitle": "We provide comfort for our customers, with the various facilities we provide that we provide",
-    "facility": [
-      {
-        "icon": "icons/Safety.svg",
-        "title": "Safety & Security",
-        "desc": "We take care of your security in 24 hours"
-      },
-      {
-        "icon": "icons/Conseling.svg",
-        "title": "Conseling",
-        "desc": "Provide counseling to stay fit spiritually and religius"
-      },
-      {
-        "icon": "icons/Vehicle.svg",
-        "title": "Vehicle In Saudi",
-        "desc": "Bus and Car Vehicles While in Saudi"
-      },
-      {
-        "icon": "icons/Health.svg",
-        "title": "Health In Saudi",
-        "desc": "Free Health Facilities for every customer"
-      },
-      {
-        "icon": "icons/Hostel.svg",
-        "title": "Hostel Rate 5",
-        "desc": "5 star hotel accommodation every customer"
-      },
-      {
-        "icon": "icons/Eat.svg",
-        "title": "Food & Drink",
-        "desc": "Provide food and drinks while in Saudi"
-      },
-      {
-        "icon": "icons/Membership.svg",
-        "title": "Membership",
-        "desc": "Obtain a membership card for each customer"
-      },
-      {
-        "icon": "icons/Vaccine.svg",
-        "title": "Vaccine",
-        "desc": "Free meningitis vaccine for all customers"
+        "image": "images/Teams.png"
       }
     ]
   },
   "testimonials": {
-    "title": "Testimonials from our customers",
-    "subTitle": "We have 100.000+ customers, here are our customer testimonials",
+    "title": "What They Say?",
+    "subTitle": "Skilline has got more than 100k positive ratings from our users around the world.",
+    "subTitle2": "Some of the students and teachers were greatly helped by the Skilline.",
+    "subTitle3": "Are you too? Please give your assessment",
+    "button": {
+      "text": "Write your assessment"
+    },
     "testimoni": [
       {
-        "image": "images/ImageTestimonial.png",
-        "name": "Adibah Khoirunnisa",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Umrah",
-        "rating": "5.0"
+        "image": "images/Testi.png",
+        "name": "Gloria Rose",
+        "quote": "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking.",
+        "rating": "5.0",
+        "review": "12 reviews at Yelp"
       },
       {
-        "image": "images/ImageTestimonial2.png",
-        "name": "Humaira Khaira",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Umrah",
-        "rating": "5.0"
-      },
-      {
-        "image": "images/ImageTestimonial3.png",
-        "name": "Hubi Khairuddin",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Umrah",
-        "rating": "5.0"
-      },
-      {
-        "image": "images/ImageTestimonial4.png",
-        "name": "Ray Gunawan",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Hajj Platinum",
-        "rating": "5.0"
-      },
-      {
-        "image": "images/ImageTestimonial.png",
-        "name": "Indra Pratama",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Hajj",
-        "rating": "5.0"
-      },
-      {
-        "image": "images/ImageTestimonial2.png",
-        "name": "Abd Al Jami’ah",
-        "quote": "I am very satisfied with Al Nasr Travel's service, starting from when we arrived in Saudi until we returned to Indonesia. We provide very good service.",
-        "class": "Al Nasr Hajj",
-        "rating": "5.0"
+        "image": "images/Testi.png",
+        "name": "Aurelia May",
+        "quote": "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking.",
+        "rating": "5.0",
+        "review": "12 reviews at Yelp"
       }
     ]
   },
-  "galleries": {
-    "title": "Gallery Footage In Saudi Arabia",
-    "subTitle": "We provide comfort for our customers, with the various facilities we provide that we provide",
-    "gallery": [
+  "allnews": {
+    "title": "Lastest News and Resources",
+    "subTitle": "See the developments that have occurred to Skillines in the world",
+    "news": [
       {
-        "image": "images/ImageGallery.png"
+        "image": "images/News.png",
+        "type": "News",
+        "title": "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
+        "text": "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively..."
       },
       {
-        "image": "images/ImageGallery2.png"
+        "image": "images/News2.png",
+        "type": "Press Release",
+        "title": "Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand",
+        "text": "Class Technologies Inc., the company that created Class,..."
       },
       {
-        "image": "images/ImageGallery3.png"
+        "image": "images/News3.png",
+        "type": "News",
+        "title": "Zoom’s earliest investors are betting millions on a better Zoom for schools",
+        "text": "Zoom was never created to be a consumer product. Nonetheless, the..."
       },
       {
-        "image": "images/ImageGallery4.png"
-      },
-      {
-        "image": "images/ImageGallery5.png"
+        "image": "images/News4.png",
+        "type": "News",
+        "title": "Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms",
+        "text": "This year, investors have reaped big financial returns from betting on Zoom..."
       }
     ]
   },
   "footer": {
     "logo": {
-      "src": "icons/TextLogo.svg",
-      "alt": "Logo Al Nasr"
+      "src": "images/Logo2.png",
+      "alt": "Logo Skilline"
     },
-    "about": "Comfortable and Quiet Worship, Our Service No. 1 in Indonesia",
-    "copyright": "Copyright © 2006 - 2023 Al Nasr Travel | All Reserverd",
-    "links": [
+    "about": "Virtual Class for Zoom",
+    "copyright": "© 2024 Class Technologies Inc.",
+    "navigation": [
       {
-        "name": "About Us",
-        "link": "/"
+        "name": "Careers"
       },
       {
-        "name": "Flight Accommodation",
-        "link": "/"
+        "name": "Privacy Policy"
       },
       {
-        "name": "Facilities",
-        "link": "/"
-      },
-      {
-        "name": "Gallery",
-        "link": "/"
-      }
-    ],
-    "packageUmrah": [
-      {
-        "name": "Al Nasr Umrah Bronze"
-      },
-      {
-        "name": "Al Nasr Umrah Silver"
-      },
-      {
-        "name": "Al Nasr Umrah Gold"
-      },
-      {
-        "name": "Al Nasr Umrah Priority"
-      }
-    ],
-    "packageHajj": [
-      {
-        "name": "Al Nasr Hajj Diamond"
-      },
-      {
-        "name": "Al Nasr Hajj Platinum"
-      },
-      {
-        "name": "Al Nasr Hajj Priority"
-      }
-    ],
-    "social": [
-      {
-        "platform": "Facebook",
-        "link": "https://facebook.com/perusahaan"
-      },
-      {
-        "platform": "Twitter",
-        "link": "https://twitter.com/perusahaan"
-      },
-      {
-        "platform": "LinkedIn",
-        "link": "https://linkedin.com/company/perusahaan"
-      }
-    ],
-    "place": [
-      {
-        "address": "Indonesia"
-      },
-      {
-        "address": "Saudi Arabia"
-      },
-      {
-        "address": "Uni Emirates Arab"
+        "name": "Terms & Conditions"
       }
     ]
   }

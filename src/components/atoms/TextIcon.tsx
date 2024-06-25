@@ -7,8 +7,12 @@ type TextIconProps = {
 const TextIcon: React.FC<TextIconProps> = ({ icon, text, className }) => {
   return (
     <div className={`flex items-center gap-5 ${className}`}>
-      <img src={icon} alt="icon" className="w-9 h-9" />
-      <p className="text-type-xl md:text-type-xxl leading-[150%] font-semibold text-basic-300">
+      <img
+        src={icon}
+        alt="icon"
+        className="w-[60px] h-[60px] rounded-full shadow-icon"
+      />
+      <p className="text-type-xl leading-[180%] font-normal text-paragraph">
         {text}
       </p>
     </div>

@@ -1,29 +1,23 @@
 type HeadingProps = {
-  title: string;
-  subTitle: string;
+  children: React.ReactNode;
+  size?: "small" | "medium" | "large";
   className?: string;
-  textAlign?: "left" | "center" | "right";
 };
 
 const Heading: React.FC<HeadingProps> = ({
-  title,
-  subTitle,
+  children,
+  size = "medium",
   className,
-  textAlign = "left",
 }) => {
+  const sizeClasses = {
+    small: "text-heading6 md:text-heading4 font-bold leading-[180%]",
+    medium: "text-heading5 md:text-heading3 font-semibold leading-[160%]",
+    large: "text-heading4 md:text-heading1 font-bold",
+  };
   return (
-    <div className={`flex flex-col text-${textAlign} ${className}`}>
-      <h1
-        className={`text-heading5 lg:text-heading2 leading-[140%] font-bold text-basic-200 font-Kufam`}
-      >
-        {title}
-      </h1>
-      <h3
-        className={`text-type-xl lg:text-type-xxl leading-[150%] font-semibold text-basic-300`}
-      >
-        {subTitle}
-      </h3>
-    </div>
+    <h1 className={`${sizeClasses[size]} ${className} text-secondary`}>
+      {children}
+    </h1>
   );
 };
 

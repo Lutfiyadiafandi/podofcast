@@ -1,5 +1,5 @@
 type ButtonProps = {
-  variant?: "primary" | "secondary" | "danger";
+  variant?: "primary" | "secondary" | "white";
   size?: "small" | "medium" | "large";
   children: React.ReactNode;
   onClick?: () => void;
@@ -17,20 +17,20 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   className,
 }) => {
-  const baseClasses =
-    "text-type-xl leading-[64%] font-semibold text-center rounded-[10px] focus:outline-none";
+  const baseClasses = "text-center rounded-[80px] focus:outline-none";
 
   const variantClasses = {
-    primary: "bg-primary text-basic-100",
+    primary: "bg-primary text-basic-50",
     secondary:
-      "bg-transparent text-primary border-2 border-primary hover:bg-primary hover:text-basic-100 transition-all duration-300 ease-in-out",
-    danger: "bg-red-500 text-white hover:bg-red-600",
+      "bg-transparent text-primary border border-primary hover:bg-primary hover:text-basic-50 transition-all duration-300 ease-in-out",
+    white: "bg-basic-50 text-basic-200",
   };
 
   const sizeClasses = {
-    small: "px-[30px] py-[16px]",
-    medium: "px-[48px] py-[26px]",
-    large: "px-[62px] py-[32px]",
+    small: "w-[160px] h-[60px] text-type-l md:text-type-xl font-medium",
+    medium: "w-[220px] h-[80px] text-type-xl md:text-type-xxl font-semibold",
+    large:
+      "w-[280px] h-[80px] text-type-xl md:text-type-xxl font-medium leading-[180%]",
   };
 
   const disabledClasses = disabled ? "opacity-50 cursor-not-allowed" : "";

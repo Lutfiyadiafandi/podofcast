@@ -1,17 +1,16 @@
 type TagProps = {
   children: React.ReactNode;
-  size?: "xsmall" | "small" | "medium" | "large";
+  size?: "small" | "medium" | "large";
   className?: string;
 };
 
 const Tag: React.FC<TagProps> = ({ size = "small", children, className }) => {
   const baseClasses =
-    "w-fit bg-secondary text-secondary-dark text-center rounded-[20px]";
+    "w-fit bg-[#F4C467] text-secondary-dark text-center rounded-[80px]";
 
   const sizeClasses = {
-    xsmall: "px-[11px] py-[5px] text-type-xs font-semibold",
-    small: "px-[20px] py-[10px] text-type-m leading-[64%] font-semibold",
-    medium: "px-[30px] py-[10px] text-type-l leading-[150%] font-bold",
+    small: "px-[12px] py-[4px] text-[18px] leading-[180%] font-normal",
+    medium: "px-[24px] py-[4px] text-type-l leading-[180%] font-normal",
     large: "px-[40px] py-[14px] text-type-xxl leading-[64%] font-medium",
   };
 

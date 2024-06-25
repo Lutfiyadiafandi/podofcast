@@ -1,24 +1,26 @@
-import About from "../components/organisms/About";
-import Airplane from "../components/organisms/Airplane";
-import Facilities from "../components/organisms/Facilities";
-import Footer from "../components/organisms/Footer";
-import Gallery from "../components/organisms/Gallery";
-import Hero from "../components/organisms/Hero";
 import Navbar from "../components/organisms/Navbar";
-import Package from "../components/organisms/Package";
+import Hero from "../components/organisms/Hero";
+import Company from "../components/organisms/Company";
+import AllinOne from "../components/organisms/AllinOne";
+import WhatIs from "../components/organisms/WhatIs";
+import Features from "../components/organisms/Features";
+import Integrations from "../components/organisms/Integrations";
 import Testimonial from "../components/organisms/Testimonial";
+import News from "../components/organisms/News";
+import Footer from "../components/organisms/Footer";
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <About />
-      <Package />
-      <Airplane />
-      <Facilities />
+      <Company />
+      <AllinOne />
+      <WhatIs />
+      <Features />
+      <Integrations />
       <Testimonial />
-      <Gallery />
+      <News />
       <Footer />
     </>
   );
