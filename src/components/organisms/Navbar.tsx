@@ -25,7 +25,7 @@ const Navbar = () => {
             <img src={Logo} alt={"Image Logo"} className="size-[74px]" />
           </Link>
           <div>
-            <ul className="hidden md:flex items-center gap-[60px]">
+            <ul className="hidden lg:flex items-center gap-[60px]">
               <li className="text-type-l font-bold text-basic-900 hover:text-basic-500">
                 <NavLink
                   to={"/podcast/are-you-a-perplexed-mind-person#full-episodes"}
@@ -77,7 +77,7 @@ const Navbar = () => {
             </ul>
           </div>
         </section>
-        <section className="hidden md:flex gap-5">
+        <section className="hidden lg:flex gap-5">
           <Button variant="secondary" size="small" href="#recent-episodes">
             Recent Episodes
           </Button>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Button>
         </section>
 
-        <div className={`pr-4 md:hidden ${isOpen ? "hidden" : "block"}`}>
+        <div className={`pr-4 lg:hidden ${isOpen ? "hidden" : "block"}`}>
           <FaBars className="text-basic-900" size={30} onClick={toggleMenu} />
         </div>
 

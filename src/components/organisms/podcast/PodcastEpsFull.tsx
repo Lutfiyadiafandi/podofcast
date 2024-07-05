@@ -61,7 +61,7 @@ const PodcastEpsFull = () => {
       <img
         src="/icons/QuoteShapeLeft.svg"
         alt="icons"
-        className="size-[120px] absolute -top-[69px] -right-[150px] -z-10"
+        className="size-[120px] absolute -top-[69px] -right-0 xl:-right-[150px] -z-10"
       />
       {/* SHAPE */}
     </main>

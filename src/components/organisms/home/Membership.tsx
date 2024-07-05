@@ -18,7 +18,7 @@ const Membership = () => {
         <img
           src="/icons/MembershipShape.svg"
           alt="icons"
-          className="size-[240px] absolute -top-[150px] -right-[110px] -z-10"
+          className="size-[120px] lg:size-[240px] absolute -top-[70px] -right-0 lg:-top-[150px] lg:-right-[110px] -z-10"
         />
         {/* SHAPE */}
       </Title>

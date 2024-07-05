@@ -29,10 +29,10 @@ const Subsribe = () => {
       <Paragraph size="large" className="mt-5">
         Get exclusive episodes, merch and more
       </Paragraph>
-      <section className="mt-[100px] relative z-0 lg:hidden">
+      <section className="mt-[100px] relative z-0 xl:hidden">
         <SliderSubscribe data={subsribe} />
       </section>
-      <section className="mt-[100px] relative z-0 hidden lg:grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-5">
+      <section className="mt-[100px] relative z-0 hidden xl:grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-5">
         {subsribe.map((item: any) => (
           <CardSubsribe
             key={item.id}
@@ -53,7 +53,7 @@ const Subsribe = () => {
         <img
           src="/icons/QuoteShapeRight.svg"
           alt="icons"
-          className="size-[200px] absolute -top-[90px] -right-[100px] -z-10"
+          className="size-[200px] absolute -top-[90px] -right-0 xxl:-right-[100px] -z-10"
         />
         {/* SHAPE */}
       </section>

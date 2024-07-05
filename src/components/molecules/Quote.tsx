@@ -11,7 +11,7 @@ type props = {
 const Quote = ({ children, className }: props) => {
   return (
     <article
-      className={`relative z-0 px-4 lg:px-0 flex flex-col justify-center items-center py-10 bg-background-pink rounded-lg ${className}`}
+      className={`relative z-0 overflow-x-hidden xl:overflow-x-visible px-4 lg:px-0 flex flex-col justify-center items-center py-10 bg-background-pink rounded-lg ${className}`}
     >
       <Coma />
       <Heading size="small" className="text-center">
@@ -32,7 +32,7 @@ const Quote = ({ children, className }: props) => {
       <img
         src="/icons/QuoteShapeRight.svg"
         alt="icons"
-        className="size-[200px] absolute -top-[60px] -right-[100px] lg:-right-[60px] -z-10"
+        className="size-[200px] absolute -top-[60px] -right-[100px] xl:-right-[0px] xxl:-right-[60px] -z-10"
       />
       {/* SHAPE */}
     </article>

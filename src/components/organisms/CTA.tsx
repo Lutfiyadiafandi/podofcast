@@ -53,41 +53,39 @@ const CTA = () => {
         </div>
       </section>
 
-      <section className="overflow-x-hidden">
-        <img
-          src={Home}
-          alt="Home"
-          className="w-[373px] absolute bottom-0 -left-[300px] lg:-left-0 -z-10"
-        />
-        <img
-          src={Play}
-          alt="Play"
-          className="w-[373px] absolute bottom-0 -right-[310px] lg:-right-0 -z-10"
-        />
+      <img
+        src={Home}
+        alt="Home"
+        className="w-[373px] hidden lg:block absolute bottom-0 -left-[300px] lg:-left-0 -z-10"
+      />
+      <img
+        src={Play}
+        alt="Play"
+        className="w-[373px] hidden lg:block absolute bottom-0 -right-[310px] lg:-right-0 -z-10"
+      />
 
-        {/* SHAPE */}
-        <img
-          src="/icons/CTAShapeLeft3.svg"
-          alt="Icon"
-          className="w-[25.44px] absolute top-[400px] left-[90px] -z-10"
-        />
-        <img
-          src="/icons/CTAShapeLeft2.svg"
-          alt="Icon"
-          className="size-[64px] absolute top-[420px] left-[100px] -z-10"
-        />
-        <img
-          src="/icons/CTAShapeLeft.svg"
-          alt="Icon"
-          className="size-[140px] absolute top-[412px] -left-[8px] -z-10"
-        />
-        <img
-          src={"/icons/CTAShapeRight.svg"}
-          alt=""
-          className="w-[207px] absolute bottom-0 -right-[150px] lg:right-[120px] -z-20"
-        />
-        {/* SHAPE */}
-      </section>
+      {/* SHAPE */}
+      <img
+        src="/icons/CTAShapeLeft3.svg"
+        alt="Icon"
+        className="w-[25.44px] hidden lg:block absolute top-[400px] left-[90px] -z-10"
+      />
+      <img
+        src="/icons/CTAShapeLeft2.svg"
+        alt="Icon"
+        className="size-[64px] hidden lg:block absolute top-[420px] left-[100px] -z-10"
+      />
+      <img
+        src="/icons/CTAShapeLeft.svg"
+        alt="Icon"
+        className="size-[140px] hidden lg:block absolute top-[412px] -left-[8px] -z-10"
+      />
+      <img
+        src={"/icons/CTAShapeRight.svg"}
+        alt=""
+        className="w-[207px] hidden lg:block absolute bottom-0 -right-[150px] lg:right-[120px] -z-20"
+      />
+      {/* SHAPE */}
     </main>
   );
 };

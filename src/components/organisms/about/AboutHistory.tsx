@@ -80,7 +80,7 @@ const AboutHistory = () => {
           <img
             src="/icons/AboutShape.svg"
             alt="icons"
-            className="size-[98.89px] absolute -top-[50px] -right-[50px] -z-10"
+            className="size-[98.89px] absolute -top-[80px] -right-[25px] md:-top-[50px] md:-right-[50px] -z-10"
           />
           {/* SHAPE */}
         </Title>
@@ -103,7 +103,7 @@ const AboutHistory = () => {
       <img
         src="/icons/QuoteShapeLeft.svg"
         alt="icons"
-        className="size-[120px] absolute -top-[69px] -right-[150px] -z-10"
+        className="size-[120px] hidden xxl:block absolute -top-[69px] -right-[150px] -z-10"
       />
       {/* SHAPE */}
     </main>

@@ -37,7 +37,7 @@ const RelatedArticle = () => {
         <img
           src="/icons/ArticleShapeRight.svg"
           alt="icons"
-          className="size-[240px] absolute -bottom-[150px] -right-[130px] -z-10"
+          className="size-[240px] absolute -bottom-[100px] -right-[0px] xxl:-bottom-[150px] xxl:-right-[130px] -z-10"
         />
         {/* SHAPE */}
       </section>
