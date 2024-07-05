@@ -10,8 +10,6 @@ const SliderSubscribe = ({ data }: any) => {
       options={{
         perPage: 3,
         perMove: 1,
-        // type: "loop",
-        // rewind: true,
         focus: "center",
         keyboard: "global",
         gap: "20px",

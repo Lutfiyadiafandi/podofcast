@@ -20,6 +20,7 @@ const RelatedArticle = () => {
             image_src={item.image_src}
             image_alt={item.image_alt}
             title={item.title}
+            slug={item.slug}
             desc={item.desc}
             type={item.type}
             date={item.date}

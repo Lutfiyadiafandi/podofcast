@@ -3,27 +3,14 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import "@splidejs/react-splide/css/core";
 import Coma from "../atoms/Coma";
-import Left from "/icons/ArrowLeftCircle.svg";
-import Right from "/icons/ArrowRightCircle.svg";
 
 const SliderTestimoni = ({ data }: any) => {
   return (
     <Splide
-      // renderControls={() => (
-      //   <div className="splide__arrows mt-[60px] flex gap-5">
-      //     <div className="splide__arrow splide__arrow--prev" typeof="button">
-      //       <img src={Left} alt="" className="size-20 bg-red-500" />
-      //     </div>
-      //     <div className="splide__arrow splide__arrow--next" typeof="button">
-      //       <img src={Right} alt="" className="size-20" />
-      //     </div>
-      //   </div>
-      // )}
       options={{
         perPage: 3,
         perMove: 1,
         type: "loop",
-        // rewind: true,
         keyboard: "global",
         gap: "20px",
         autoWidth: true,
