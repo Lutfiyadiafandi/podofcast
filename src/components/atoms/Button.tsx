@@ -1,46 +1,45 @@
+import { Link } from "react-router-dom";
+
 type ButtonProps = {
-  variant?: "primary" | "secondary" | "white";
-  size?: "small" | "medium" | "large";
+  variant?: "primary" | "secondary";
+  size?: "small" | "large";
   children: React.ReactNode;
   onClick?: () => void;
-  type?: "button" | "submit" | "reset";
-  disabled?: boolean;
+  href: string;
   className?: string;
 };
 
-const Button: React.FC<ButtonProps> = ({
+const Button = ({
   variant = "primary",
-  size = "medium",
+  size = "large",
   children,
   onClick,
-  type = "button",
-  disabled = false,
+  href,
   className,
-}) => {
-  const baseClasses = "text-center rounded-[80px] focus:outline-none";
+}: ButtonProps) => {
+  const baseClasses =
+    "text-type-m font-bold text-center uppercase rounded-lg border-2 border-basic-900 focus:outline-none";
 
   const variantClasses = {
-    primary: "bg-primary text-basic-50",
+    primary:
+      "bg-basic-900 text-basic-100 transition-all duration-300 ease-in-out",
     secondary:
-      "bg-transparent text-primary border border-primary hover:bg-primary hover:text-basic-50 transition-all duration-300 ease-in-out",
-    white: "bg-basic-50 text-basic-200",
+      "bg-transparent text-basic-900 shadow-none transition-all duration-300 ease-in-out",
   };
 
   const sizeClasses = {
-    small: "w-[160px] h-[60px] text-type-l md:text-type-xl font-medium",
-    medium: "w-[220px] h-[80px] text-type-xl md:text-type-xxl font-semibold",
-    large:
-      "w-[280px] h-[80px] text-type-xl md:text-type-xxl font-medium leading-[180%]",
+    small: "py-3 px-6 shadow-btn",
+    large: "py-5 px-9 shadow-btn-large",
   };
 
-  const disabledClasses = disabled ? "opacity-50 cursor-not-allowed" : "";
-
-  const style = `${baseClasses} ${className} ${variantClasses[variant]} ${sizeClasses[size]} ${disabledClasses}`;
+  const style = `${baseClasses} ${className} ${variantClasses[variant]} ${sizeClasses[size]}`;
 
   return (
-    <button type={type} className={style} onClick={onClick} disabled={disabled}>
-      {children}
-    </button>
+    <Link to={`/${href}`}>
+      <button className={style || ""} onClick={onClick}>
+        {children}
+      </button>
+    </Link>
   );
 };
 

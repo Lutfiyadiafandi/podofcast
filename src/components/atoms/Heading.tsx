@@ -1,21 +1,19 @@
 type HeadingProps = {
   children: React.ReactNode;
-  size?: "small" | "medium" | "large";
+  size: "small" | "medium" | "large";
   className?: string;
 };
 
-const Heading: React.FC<HeadingProps> = ({
-  children,
-  size = "medium",
-  className,
-}) => {
+const Heading = ({ children, size, className }: HeadingProps) => {
   const sizeClasses = {
-    small: "text-heading6 md:text-heading4 font-bold leading-[180%]",
-    medium: "text-heading5 md:text-heading3 font-semibold leading-[160%]",
-    large: "text-heading4 md:text-heading1 font-bold",
+    small: "text-heading3-mobile md:text-heading3",
+    medium: "text-heading2-mobile md:text-heading2 text-center",
+    large: "text-heading1-mobile md:text-heading1 text-center",
   };
   return (
-    <h1 className={`${sizeClasses[size]} ${className} text-secondary`}>
+    <h1
+      className={`${sizeClasses[size]} ${className} font-bold text-basic-900`}
+    >
       {children}
     </h1>
   );

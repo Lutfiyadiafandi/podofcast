@@ -1,23 +1,18 @@
 type ParagraphProps = {
-  text: string;
-  size: "small" | "medium" | "large";
+  children: React.ReactNode;
+  size: "small" | "large";
   className?: string;
 };
-const Paragraph: React.FC<ParagraphProps> = ({
-  text,
-  size = "medium",
-  className,
-}) => {
+const Paragraph = ({ children, size, className }: ParagraphProps) => {
   const sizeClasses = {
-    small: "text-type-m md:text-type-l",
-    medium: "text-type-l md:text-type-xl",
-    large: "text-type-xl md:text-type-xxl",
+    small: "text-type-l",
+    large: "text-type-xl-mobile md:text-type-xl",
   };
   return (
     <p
-      className={`${sizeClasses[size]} ${className} font-normal leading-[180%] text-paragraph`}
+      className={`${sizeClasses[size]} ${className} font-medium text-basic-500 text-center`}
     >
-      {text}
+      {children}
     </p>
   );
 };

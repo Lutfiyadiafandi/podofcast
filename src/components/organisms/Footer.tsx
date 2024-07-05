@@ -1,63 +1,117 @@
-import data from "../../utils/data.json";
-import { useState } from "react";
+import Logo from "/images/Logo.png";
 
-const Footer = () => {
-  const [footer] = useState(data.footer);
-  return (
-    <footer className="mt-[100px] md:mt-[160px] bg-secondary-dark">
-      <section className="pt-[74px] pb-10 px-4 flex flex-col justify-between items-center gap-[95px]">
-        <div className="flex gap-5 md:gap-[41px] justify-center items-center">
-          <img
-            src={footer.logo.src}
-            alt={footer.logo.alt}
-            className="w-[150px] h-full cursor-pointer"
-          />
-          <hr className="h-[80px] w-[2px] bg-[#626381]" />
-          <h2 className="text-type-xl font-semibold text-basic-50">
-            Virtual Class
-            <br />
-            for Zoom
-          </h2>
-        </div>
-        <div>
-          <p className="text-type-xxl font-medium text-[#B2B3CF] text-center">
-            Subscribe to get our Newsletter
-          </p>
-          <div className="mt-5 flex flex-wrap gap-5 justify-center">
-            <input
-              type="email"
-              className="max-w-[400px] h-[60px] px-8 bg-transparent rounded-[80px] border border-[#83839A] stroke-1 stroke-[#83839A] text-type-l font-normal text-[#83839A] focus:outline-none"
-              placeholder="Your Email"
+import GooglePlay from "/icons/GooglePlay.svg";
+import AppStore from "/icons/AppStore.svg";
+import GooglePodcast from "/icons/GooglePodcast.svg";
+import Spotify from "/icons/Spotify.svg";
+import Youtube from "/icons/Youtube.svg";
+import { Link, NavLink } from "react-router-dom";
+import Socmed from "../molecules/Socmed";
+
+const Footer = () => (
+  <footer className="pt-[140px] pb-20 px-4 xl:px-0 max-w-screen-xl mx-auto">
+    <main className="flex flex-col md:flex-row gap-10 md:justify-between items-center md:items-start">
+      <section className="flex flex-col gap-10">
+        <figure className="flex gap-6 items-baseline">
+          <Link to={"/"}>
+            <img
+              src={Logo}
+              alt={"Image Logo"}
+              className="size-[74px] cursor-pointer"
             />
-            <input
-              type="button"
-              value="Subscribe"
-              className="w-[180px] h-[60px] rounded-[60px] bg-gradient-to-br from-[#545AE7] to-[#393FCF] text-type-xl font-medium text-basic-50 cursor-pointer"
+          </Link>
+          <span className="text-type-s font-medium text-basic-500">©2021.</span>
+        </figure>
+        <p className="text-type-m font-medium text-basic-500">
+          Lorem ipsum dolor sit amet,
+          <br />
+          consectetur adipiscing elit.
+        </p>
+        <Socmed className="justify-center md:justify-start" />
+      </section>
+      <nav>
+        <ul className="grid grid-cols-2 gap-x-5 xl:gap-x-[93px] gap-y-5">
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink to={"/about"}>About</NavLink>
+          </li>
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink to={"/#testimonials"}>Testimonials</NavLink>
+          </li>
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink to={"/"}>Features</NavLink>
+          </li>
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink
+              to={"/podcast/are-you-a-perplexed-mind-person#full-episodes"}
+            >
+              Episodes
+            </NavLink>
+          </li>
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink to={"/#subscribe"}>Pricing</NavLink>
+          </li>
+          <li className="text-type-l font-medium text-basic-900 hover:text-primary">
+            <NavLink to={"/blog"}>Blog</NavLink>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <div>
+          <span className="text-type-l font-medium text-basic-500 text-center">
+            Listen to episodes on your fav platform:
+          </span>
+          <div className="mt-[29px] flex flex-col lg:flex-row gap-[38.5px] items-center md:items-start">
+            <img
+              src={GooglePodcast}
+              alt="GooglePodcast Logo"
+              className="w-[122px] h-[22px] cursor-pointer"
+            />
+            <img
+              src={Spotify}
+              alt="Spotify Logo"
+              className="w-[80px] h-[22px] cursor-pointer"
+            />
+            <img
+              src={Youtube}
+              alt="Youtube Logo"
+              className="w-[94px] h-[22px] cursor-pointer"
             />
           </div>
         </div>
-        <nav>
-          <ul className="flex flex-col md:flex-row gap-5 justify-center">
-            {footer.navigation.map((item: any, index) => (
-              <li
-                key={index}
-                className={`text-type-l md:text-type-xl font-normal text-[#B2B3CF] text-center ${
-                  index !== footer.navigation.length - 1
-                    ? "md:border-r-[2px] md:border-[#626381] md:pr-5"
-                    : ""
-                }`}
-              >
-                {item.name}
-              </li>
-            ))}
-          </ul>
-          <p className="mt-10 text-type-l md:text-type-xl font-normal text-[#B2B3CF] text-center">
-            {footer.copyright}
-          </p>
-        </nav>
+        <div className="mt-[60px] flex flex-col items-center md:items-start">
+          <span className="text-type-l font-medium text-basic-500 text-center">
+            App available on:
+          </span>
+          <div className="mt-5 flex gap-5 items-center justify-center">
+            <img
+              src={AppStore}
+              alt="App Store Logo"
+              className="size-9 cursor-pointer"
+            />
+            <img
+              src={GooglePlay}
+              alt="Google Play Logo"
+              className="size-9 cursor-pointer"
+            />
+          </div>
+        </div>
       </section>
-    </footer>
-  );
-};
+    </main>
+    <aside className="mt-[100px] lg:mt-[140px]">
+      <hr className="w-full h-[0.5px] bg-basic-500" />
+      <div className="mt-5 flex flex-col md:flex-row justify-between items-center">
+        <p className="text-type-s font-medium text-basic-500">
+          ©2022. All Rights Reserved.
+          <span className="text-primary"> Pod of Cast</span>
+        </p>
+        <div className="flex gap-2.5">
+          <p className="text-type-s font-medium text-basic-500">Terms</p>
+          <span className="text-type-s font-medium text-basic-500">•</span>
+          <p className="text-type-s font-medium text-basic-500">Privacy</p>
+        </div>
+      </div>
+    </aside>
+  </footer>
+);
 
 export default Footer;

@@ -1,239 +1,382 @@
 {
-  "header": {
-    "logo": {
-      "src": "images/Logo.png",
-      "alt": "Logo Skilline"
+  "podcast": [
+    {
+      "image_src": "images/Podcast1.png",
+      "image_alt": "Images Podcast1"
     },
-    "navigation": [
-      {
-        "name": "Home",
-        "link": "/"
-      },
-      {
-        "name": "Careers",
-        "link": "/careers"
-      },
-      {
-        "name": "Blog",
-        "link": "/blog"
-      },
-      {
-        "name": "About Us",
-        "link": "/aboutus"
-      }
-    ],
-    "button": {
-      "text": "Login"
+    {
+      "image_src": "images/Podcast2.png",
+      "image_alt": "Images Podcast2"
     },
-    "buttonSecond": {
-      "text": "Sign Up"
-    }
-  },
-  "hero": {
-    "image": {
-      "src": "images/Hero.png",
-      "alt": "Image Hero"
+    {
+      "image_src": "images/Podcast3.png",
+      "image_alt": "Images Podcast3"
     },
-    "title": "Studying Online is now much easier",
-    "subTitle": "Skilline is an interesting platform that will teach you in more an interactive way",
-    "watch": "Watch how it works",
-    "button": {
-      "text": "Join for free"
+    {
+      "image_src": "images/Podcast4.png",
+      "image_alt": "Images Podcast4"
+    },
+    {
+      "image_src": "images/Podcast5.png",
+      "image_alt": "Images Podcast5"
     }
-  },
-  "companies": {
-    "title": "Trusted by 5,000+ Companies Worldwide",
-    "company": [
-      {
-        "image": "images/Google.png"
-      },
-      {
-        "image": "images/Netflix.png"
-      },
-      {
-        "image": "images/Airbnb.png"
-      },
-      {
-        "image": "images/Amazon.png"
-      },
-      {
-        "image": "images/Facebook.png"
-      },
-      {
-        "image": "images/Grab.png"
-      }
-    ]
-  },
-  "allInOne": {
-    "title": "All-In-One Cloud Software.",
-    "subTitle": "Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.",
-    "supremacy": [
-      {
-        "image": "icons/Bill.svg",
-        "title": "Online Billing, Invoicing, & Contracts",
-        "description": "Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts"
-      },
-      {
-        "image": "icons/Schedule.svg",
-        "title": "Easy Scheduling & Attendance Tracking",
-        "description": "Schedule and reserve classrooms at one campus or multiple campuses. Keep detailed records of student attendance"
-      },
-      {
-        "image": "icons/Tracking.svg",
-        "title": "Customer Tracking",
-        "description": "Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization "
-      }
-    ]
-  },
-  "whatIs": {
-    "title": "What is Skilline?",
-    "subTitle": "Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.",
-    "types": [
-      {
-        "image": "images/Instructor.png",
-        "text": "FOR INSTRUCTORS",
-        "button": {
-          "text": "Start a class today"
-        }
-      },
-      {
-        "image": "images/Student.png",
-        "text": "FOR STUDENTS",
-        "button": {
-          "text": "Enter access code"
-        }
-      }
-    ],
-    "youCanDo": {
-      "image": {
-        "src": "images/YouCanDo.png",
-        "alt": "Image You Can Do"
-      },
-      "title": "Everything you can do in a physical classroom, you can do with Skilline",
-      "subTitle": "Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.",
-      "button": {
-        "text": "Learn more"
-      }
-    }
-  },
-  "ourFeatures": {
-    "title": "Our Features",
-    "subTitle": "This very extraordinary feature, can make learning activities more efficient",
-    "features1": {
-      "image": "images/User.png",
-      "text": "A user interface designed for the classroom",
-      "option": [
+  ],
+  "podcast_eps": [
+    {
+      "id": 1,
+      "image": "/images/Podcast1.png",
+      "image_src": "/images/Cover1.png",
+      "image_alt": "Images Podcast 1",
+      "title": "Are you a Perplexed Mind Person?",
+      "slug": "are-you-a-perplexed-mind-person",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
         {
-          "icon": "icons/Grid.svg",
-          "text": "Teachers don’t get lost in the grid view and have a dedicated Podium space."
+          "title": "mind-behaviour"
         },
         {
-          "icon": "icons/Front.svg",
-          "text": "TA’s and presenters can be moved to the front of the class."
+          "title": "health"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    },
+    {
+      "id": 2,
+      "image": "/images/Podcast2.png",
+      "image_src": "/images/Cover2.png",
+      "image_alt": "Images Podcast 2",
+      "title": "Type of Social Classes of People",
+      "slug": "type-of-social-classes-of-people",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
+        {
+          "title": "social class"
         },
         {
-          "icon": "icons/Class.svg",
-          "text": "Teachers can easily see all students and class data at one time."
+          "title": "wealth"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    },
+    {
+      "id": 3,
+      "image": "/images/Podcast3.png",
+      "image_src": "/images/Cover3.png",
+      "image_alt": "Images Podcast 3",
+      "title": "How to Deal with Self–Confidence",
+      "slug": "how-to-deal-with-self-confidence",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
+        {
+          "title": "self-esteem"
+        },
+        {
+          "title": "health"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    },
+    {
+      "id": 4,
+      "image": "/images/Podcast4.png",
+      "image_src": "/images/Cover4.png",
+      "image_alt": "Images Podcast 4",
+      "title": "Women's Rights? Is it alright?",
+      "slug": "women's-rights-is-it-alright",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
+        {
+          "title": "women’s rights"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    },
+    {
+      "id": 5,
+      "image": "/images/Podcast5.png",
+      "image_src": "/images/Cover5.png",
+      "image_alt": "Images Podcast 5",
+      "title": "Tesla Autopilot Controversy",
+      "slug": "tesla-autopilot-controversy",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
+        {
+          "title": "automation"
+        },
+        {
+          "title": "tech"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    },
+    {
+      "id": 6,
+      "image": "/images/Cover6.png",
+      "image_src": "/images/Cover6.png",
+      "image_alt": "Images Podcast 6",
+      "title": "Pandemic Becoming Endemic",
+      "slug": "pandemic-becoming-endemic",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.",
+      "category": [
+        {
+          "title": "covid-19"
+        },
+        {
+          "title": "health"
+        }
+      ],
+      "hostby": "/images/Host.png"
+    }
+  ],
+  "supported": [
+    {
+      "image_src": "images/Spotify.png",
+      "image_alt": "Image Spotify",
+      "desc": "Quis dictum cursus faucibus mattis dignissim. Pellentesque purus in sedsodales in mauris molestie. Eleifend estconsctetur interdum eu in auctor. Gravida leo et."
+    },
+    {
+      "image_src": "images/GooglePodcast.png",
+      "image_alt": "Images Google Podcast",
+      "desc": "Quis dictum cursus faucibus mattis dignissim. Pellentesque purus in sedsodales in mauris molestie. Eleifend estconsctetur interdum eu in auctor. Gravida leo et."
+    },
+    {
+      "image_src": "images/Youtube.png",
+      "image_alt": "Images Youtube",
+      "desc": "Quis dictum cursus faucibus mattis dignissim. Pellentesque purus in sedsodales in mauris molestie. Eleifend estconsctetur interdum eu in auctor. Gravida leo et."
+    }
+  ],
+  "inspired": [
+    {
+      "image_src": "images/Illustration1.png",
+      "image_alt": "Image Illustration1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio."
+    },
+    {
+      "image_src": "images/Illustration2.png",
+      "image_alt": "Image Illustration2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio."
+    }
+  ],
+  "testimonials": [
+    {
+      "image": "images/Avatar1.png",
+      "name": "Luna lovegood",
+      "quote": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.",
+      "platform": "images/SpotifyM.png"
+    },
+    {
+      "image": "images/Avatar2.png",
+      "name": "Emily Blunt",
+      "quote": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.",
+      "platform": "images/GooglePodcastM.png"
+    },
+    {
+      "image": "images/Avatar3.png",
+      "name": "Mia Winters",
+      "quote": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor incidi ut labore et dolore magna aliqua.",
+      "platform": "images/ApplePodcast.png"
+    }
+  ],
+  "membership": [
+    {
+      "image": "images/Scribble.png",
+      "title": "Topic by Request",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    },
+    {
+      "image": "images/Shiningstars.png",
+      "title": "Exclusive Content",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    },
+    {
+      "image": "images/Face1.png",
+      "title": "Join the Community",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    },
+    {
+      "image": "images/Face5.png",
+      "title": "Livestreaming Access",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    },
+    {
+      "image": "images/Fire.png",
+      "title": "Exclusive Episodes & Merch",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    },
+    {
+      "image": "images/Star.png",
+      "title": "And much more!",
+      "desc": "Lorem ipsum dolor sit amet consectet piscing elit, sed do eiusmod tempor."
+    }
+  ],
+  "subscribe": [
+    {
+      "id": 1,
+      "title": "Member",
+      "desc": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.",
+      "price": "$9.99",
+      "include": [
+        {
+          "benefit": "Exclusive Content"
+        },
+        {
+          "benefit": "5% Discount on Merch"
+        },
+        {
+          "benefit": "Join the Community"
+        },
+        {
+          "benefit": "Livestreaming Access"
         }
       ]
     },
-    "features2": {
-      "image": "images/Tools.png",
-      "text": "Tools For Teachers And Learners",
-      "description": "Class has a dynamic set of teaching tools built to be deployed and used during class. Teachers can handout assignments in real-time for students to complete and submit."
+    {
+      "id": 2,
+      "title": "Family",
+      "desc": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.",
+      "price": "$14.99",
+      "include": [
+        {
+          "benefit": "Everything in Tier 1"
+        },
+        {
+          "benefit": "Free tickets to Events"
+        },
+        {
+          "benefit": "Limited Edition Merch"
+        },
+        {
+          "benefit": "Promote your Product"
+        },
+        {
+          "benefit": "Request Topic"
+        }
+      ]
     },
-    "features3": {
-      "image": "images/Quiz.png",
-      "text": "Assessments, Quizzes, Tests",
-      "description": "Easily launch live assignments, quizzes, and tests. Student results are automatically entered in the online gradebook."
-    },
-    "features4": {
-      "image": "images/ClassMan.png",
-      "text": "Class Management Tools for Educators",
-      "description": "Class provides tools to help run and manage the class such as Class Roster, Attendance, and more. With the Gradebook, teachers can review and grade tests and quizzes in real-time."
-    },
-    "features5": {
-      "image": "images/OneonOne.png",
-      "text": "One-on-One Discussions",
-      "description": "Teachers and teacher assistants can talk with students privately without leaving the Zoom environment."
+    {
+      "id": 3,
+      "title": "Official",
+      "desc": "Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.",
+      "price": "$29.99",
+      "include": [
+        {
+          "benefit": "Everything in Tier 2"
+        },
+        {
+          "benefit": "Exclusive Badge on Livestreaming"
+        },
+        {
+          "benefit": "Become an Official Sponsor"
+        },
+        {
+          "benefit": "Early Access to All Episodes"
+        },
+        {
+          "benefit": "Free Stikers and Merch"
+        }
+      ]
     }
-  },
-  "integrations": {
-    "title": "200+ educational tools and platform integrations",
-    "subTitle": "Schoology has every tool your classroom needs and comes pre-integrated with more than 200+ tools, student information systems (SIS), and education platforms.",
-    "button": {
-      "text": "See All Integrations"
+  ],
+  "article": [
+    {
+      "id": 1,
+      "image": "/images/ArticleCover1.png",
+      "image_src": "/images/Article1.png",
+      "image_alt": "Images Article 1",
+      "title": "Setup Your Own Podcast",
+      "slug": "setup-your-own-podcast",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+      "type": "Podcast",
+      "date": "Sep 14, 2021",
+      "category": [
+        {
+          "title": "business"
+        },
+        {
+          "title": "startup"
+        }
+      ]
     },
-    "platforms": [
-      {
-        "image": "images/OneDrive.png"
-      },
-      {
-        "image": "images/Dropbox.png"
-      },
-      {
-        "image": "images/GDrive.png"
-      },
-      {
-        "image": "images/Teams.png"
-      }
-    ]
-  },
-  "testimonials": {
-    "title": "What They Say?",
-    "subTitle": "Skilline has got more than 100k positive ratings from our users around the world.",
-    "subTitle2": "Some of the students and teachers were greatly helped by the Skilline.",
-    "subTitle3": "Are you too? Please give your assessment",
-    "button": {
-      "text": "Write your assessment"
+    {
+      "id": 2,
+      "image": "/images/ArticleCover2.png",
+      "image_src": "/images/Article2.png",
+      "image_alt": "Images Article 2",
+      "title": "Doodle Artwork 101",
+      "slug": "doodle-artwork-101",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+      "type": "Tips & Tricks",
+      "date": "Sep 12, 2021",
+      "category": [
+        {
+          "title": "art"
+        },
+        {
+          "title": "creative"
+        },
+        {
+          "title": "tips and trick"
+        }
+      ]
     },
-    "testimoni": [
-      {
-        "image": "images/Testi.png",
-        "name": "Gloria Rose",
-        "quote": "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking.",
-        "rating": "5.0",
-        "review": "12 reviews at Yelp"
-      },
-      {
-        "image": "images/Testi.png",
-        "name": "Aurelia May",
-        "quote": "Thank you so much for your help. It's exactly what I've been looking for. You won't regret it. It really saves me time and effort. Skilline is exactly what our business has been lacking.",
-        "rating": "5.0",
-        "review": "12 reviews at Yelp"
-      }
-    ]
-  },
-  "allnews": {
-    "title": "Lastest News and Resources",
-    "subTitle": "See the developments that have occurred to Skillines in the world",
-    "news": [
-      {
-        "image": "images/News.png",
-        "type": "News",
-        "title": "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
-        "text": "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively..."
-      },
-      {
-        "image": "images/News2.png",
-        "type": "Press Release",
-        "title": "Class Technologies Inc. Closes $30 Million Series A Financing to Meet High Demand",
-        "text": "Class Technologies Inc., the company that created Class,..."
-      },
-      {
-        "image": "images/News3.png",
-        "type": "News",
-        "title": "Zoom’s earliest investors are betting millions on a better Zoom for schools",
-        "text": "Zoom was never created to be a consumer product. Nonetheless, the..."
-      },
-      {
-        "image": "images/News4.png",
-        "type": "News",
-        "title": "Former Blackboard CEO Raises $16M to Bring LMS Features to Zoom Classrooms",
-        "text": "This year, investors have reaped big financial returns from betting on Zoom..."
-      }
-    ]
-  },
+    {
+      "id": 3,
+      "image": "/images/ArticleCover3.png",
+      "image_src": "/images/Article3.png",
+      "image_alt": "Images Article 3",
+      "title": "Mother Nature Taking Over",
+      "slug": "mother-nature-taking-over",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+      "type": "News",
+      "date": "Sep 10, 2021",
+      "category": [
+        {
+          "title": "news"
+        },
+        {
+          "title": "nature"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "/images/ArticleCover4.png",
+      "image_src": "/images/Article4.png",
+      "image_alt": "Images Article 4",
+      "title": "How to Be Productive",
+      "slug": "how-to-be-productive",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimvel iam, quis nostrud exercitation ullamco laboris...",
+      "type": "Productivity",
+      "date": "Sep 8, 2021",
+      "category": [
+        {
+          "title": "productivity"
+        },
+        {
+          "title": "mindset"
+        }
+      ]
+    }
+  ],
+  "founder": [
+    {
+      "id": 1,
+      "image_src": "images/AvatarFounder.png",
+      "image_alt": "Avatar Founder",
+      "name": "Porter Severus",
+      "desc": "Lorem ipsum dolor sit amet con sectet piscing elit, sed do eiusmod tempor rarylet podofcast.",
+      "icon": "images/Face1Rotate.png"
+    },
+    {
+      "id": 2,
+      "image_src": "images/AvatarMainHost.png",
+      "image_alt": "Avatar Main host",
+      "name": "Marques Keith",
+      "desc": "Lorem ipsum dolor sit amet con sectet piscing elit, sed do eiusmod tempor rarylet podofcast.",
+      "icon": "images/Star.png"
+    }
+  ],
+
   "footer": {
     "logo": {
       "src": "images/Logo2.png",
