@@ -12,7 +12,7 @@ const AboutHistory = () => {
   const [founder] = useState(data.founder);
   return (
     <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto overflow-x-hidden">
-      <section className="-mt-[255px] grid grid-cols-3 gap-3 sm:gap-5">
+      <section className="-mt-[255px] grid grid-cols-3 gap-3 sm:gap-5 z-10">
         <Box total={76} title={"Community Members"} />
         <Box total={128} title={"Podcast Subscribers"} />
         <Box total={59} title={"Daily Listeners"} />

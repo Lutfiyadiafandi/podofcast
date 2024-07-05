@@ -38,7 +38,7 @@ const DetailPodcastEps = () => {
         <img
           src={podcast?.image}
           alt={podcast?.image_alt}
-          className="w-full flex-none md:size-[472px] rounded-lg shadow-card px-2"
+          className="w-full flex-none md:size-[472px] rounded-lg shadow-card"
         />
 
         <article className="w-full grow">

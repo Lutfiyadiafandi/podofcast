@@ -86,7 +86,7 @@ const Navbar = () => {
           </Button>
         </section>
 
-        <div className={`md:hidden ${isOpen ? "hidden" : "block"}`}>
+        <div className={`px-4 md:hidden ${isOpen ? "hidden" : "block"}`}>
           <FaBars className="text-basic-900" size={30} onClick={toggleMenu} />
         </div>
 
