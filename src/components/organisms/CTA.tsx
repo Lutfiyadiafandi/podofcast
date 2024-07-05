@@ -12,7 +12,7 @@ import Title from "../atoms/Title";
 
 const CTA = () => {
   return (
-    <main className="py-[140px] relative z-0 bg-background-blue border-b-2 border-basic-500">
+    <main className="py-[140px] relative z-0 overflow-x-hidden bg-background-blue border-b-2 border-basic-500">
       <IconSection variant="red" />
       <Tagline size="large" textColor="red" className="mx-auto">
         Beta
