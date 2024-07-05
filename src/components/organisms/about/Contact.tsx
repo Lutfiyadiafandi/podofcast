@@ -8,7 +8,7 @@ import Title from "../../atoms/Title";
 
 const Contact = () => {
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-md mx-auto overflow-x-hidden">
+    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-md mx-auto">
       <Title>
         <Heading size="medium">Get in touch</Heading>
 
@@ -62,12 +62,12 @@ const Contact = () => {
       <img
         src="icons/QuoteShapeLeft.svg"
         alt="Icon"
-        className="size-[120px] absolute bottom-[250px] -left-[350px] -z-10"
+        className="size-[120px] lg:absolute bottom-[250px] -left-[350px] -z-10"
       />
       <img
         src={"icons/ContactShapeRight.svg"}
         alt=""
-        className="size-[78px] absolute top-[320px] -right-[200px] -z-10"
+        className="size-[78px] lg:absolute top-[320px] -right-[200px] -z-10"
       />
       {/* SHAPE */}
     </main>

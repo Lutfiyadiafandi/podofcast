@@ -11,14 +11,14 @@ const PodcastEps = () => {
   return (
     <main
       id="recent-episodes"
-      className="py-[140px] px-4 xl:px-0 relative z-0 bg-background-pink"
+      className="py-[140px] px-4 xl:px-0 relative z-0 overflow-x-hidden bg-background-pink"
     >
       <IconSection variant="black" />
       <Heading size="medium">Recent Episodes</Heading>
       <Paragraph size="large" className="mt-5">
         Available on your favorite platform
       </Paragraph>
-      <section className="mt-[100px] relative z-0 max-w-screen-xl mx-auto overflow-x-hidden grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-10 xl:gap-y-5">
+      <section className="mt-[100px] relative z-0 max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-5 gap-y-10 xl:gap-y-5">
         {[...podcast].reverse().map((item: any) => (
           <CardPodcast
             key={item.id}

@@ -7,7 +7,7 @@ import Quote from "../../molecules/Quote";
 const Inspired = () => {
   const [inspired] = useState(data.inspired);
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto overflow-x-hidden">
+    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto">
       <IconSection variant="red" />
       <Heading size="medium">
         Talk. Listen. Get inspired <br />

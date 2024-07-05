@@ -3,7 +3,7 @@ import Paragraph from "../../atoms/Paragraph";
 
 const HeroBlog = () => {
   return (
-    <main className="pt-16 pb-[117px] px-4 xl:px-0 relative z-0 overflow-x-hidden bg-background-pink">
+    <main className="pt-16 pb-[117px] px-4 xl:px-0 relative z-0 bg-background-pink">
       <section className="text-center">
         <Heading size="large">
           Article <br />

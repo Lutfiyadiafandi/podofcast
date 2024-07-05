@@ -19,7 +19,7 @@ const PodcastEpsFull = () => {
   return (
     <main
       id="full-episodes"
-      className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto overflow-x-hidden"
+      className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto"
     >
       <Title>
         <Heading size="medium">Latest Episode</Heading>

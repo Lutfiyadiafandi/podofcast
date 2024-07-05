@@ -9,7 +9,7 @@ import IconSection from "../../atoms/IconSection";
 const Article = () => {
   const [article] = useState(data.article);
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto overflow-x-hidden">
+    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto">
       <IconSection variant="black" />
       <Heading size="medium">Article and News</Heading>
       <Paragraph size="large" className="mt-5">
