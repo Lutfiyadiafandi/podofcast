@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <header className="w-full bg-background-pink">
       <nav className="pt-5 lg:pt-6 px-4 xl:px-0 w-full max-w-screen-xl mx-auto relative z-10 flex items-center justify-between">
-        <section className="flex items-center gap-[50px] lg:gap-[123px]">
+        <section className="pl-4 flex items-center gap-[50px] lg:gap-[123px]">
           <Link to={"/"}>
             <img src={Logo} alt={"Image Logo"} className="size-[74px]" />
           </Link>
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Button>
         </section>
 
-        <div className={`px-4 md:hidden ${isOpen ? "hidden" : "block"}`}>
+        <div className={`pr-4 md:hidden ${isOpen ? "hidden" : "block"}`}>
           <FaBars className="text-basic-900" size={30} onClick={toggleMenu} />
         </div>
 
@@ -97,7 +97,7 @@ const Navbar = () => {
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-          <div className="flex justify-between items-center px-4 py-5">
+          <div className="flex justify-between items-center px-8 py-5">
             <Link to="/">
               <img src={Logo} alt="Image Logo" className="size-[74px]" />
             </Link>

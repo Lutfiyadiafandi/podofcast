@@ -35,11 +35,13 @@ const DetailPodcastEps = () => {
   return (
     <main className="pt-[100px] pb-10 px-4 xl:px-0 relative z-0 overflow-x-hidden bg-background-pink">
       <section className="max-w-screen-xl mx-auto flex flex-col lg:flex-row gap-[60px] md:gap-[118px] justify-between items-center">
-        <img
-          src={podcast?.image}
-          alt={podcast?.image_alt}
-          className="w-full flex-none md:size-[472px] rounded-lg shadow-card"
-        />
+        <figure className="w-full flex-none md:size-[472px] rounded-lg">
+          <img
+            src={podcast?.image}
+            alt={podcast?.image_alt}
+            className="w-full flex-none md:size-[472px] rounded-lg shadow-card"
+          />
+        </figure>
 
         <article className="w-full grow">
           <div className="flex flex-wrap justify-between items-center">
