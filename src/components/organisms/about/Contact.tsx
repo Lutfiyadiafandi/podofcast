@@ -8,7 +8,7 @@ import Title from "../../atoms/Title";
 
 const Contact = () => {
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-md mx-auto">
+    <main className="py-[140px] px-4 xl:px-0 relative z-0 max-w-screen-md mx-auto overflow-x-hidden">
       <Title>
         <Heading size="medium">Get in touch</Heading>
 

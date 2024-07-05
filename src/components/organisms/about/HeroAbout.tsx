@@ -4,7 +4,7 @@ import Paragraph from "../../atoms/Paragraph";
 
 const HeroAbout = () => {
   return (
-    <main className="pt-16 pb-[256px] px-4 xl:px-0 relative z-0 flex flex-col gap-[120px] bg-background-pink">
+    <main className="pt-16 pb-[256px] px-4 xl:px-0 relative z-0 overflow-x-hidden flex flex-col gap-[120px] bg-background-pink">
       <section className="text-center">
         <Heading size="large">
           About

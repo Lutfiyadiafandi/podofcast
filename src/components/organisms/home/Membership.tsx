@@ -9,7 +9,7 @@ import Title from "../../atoms/Title";
 const Membership = () => {
   const [membership] = useState(data.membership);
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative max-w-screen-xl mx-auto">
+    <main className="py-[140px] px-4 xl:px-0 relative max-w-screen-xl mx-auto overflow-x-hidden">
       <IconSection variant="black" />
       <Title>
         <Heading size="medium">Membership benefits</Heading>

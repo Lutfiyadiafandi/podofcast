@@ -12,7 +12,7 @@ const Hero = () => {
   const [podcast] = useState(data.podcast_eps);
 
   return (
-    <main className="pt-16 pb-[140px] relative z-0 flex flex-col gap-[120px] bg-background-pink">
+    <main className="pt-16 pb-[140px] relative z-0 overflow-x-hidden flex flex-col gap-[120px] bg-background-pink">
       <section className="text-center">
         <Heading size="large">
           Your Daily <br />

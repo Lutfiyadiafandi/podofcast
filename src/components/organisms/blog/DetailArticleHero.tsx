@@ -31,7 +31,7 @@ const DetailArticleHero = () => {
   }, [slug]);
 
   return (
-    <main className="pt-20 relative z-0 bg-background-pink">
+    <main className="pt-20 relative z-0 overflow-x-hidden bg-background-pink">
       <section className="max-w-screen-xl mx-auto">
         <div className="px-4 md:px-0 flex justify-between items-center">
           <Link to="/blog">
