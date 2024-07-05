@@ -62,12 +62,12 @@ const Contact = () => {
       <img
         src="icons/QuoteShapeLeft.svg"
         alt="Icon"
-        className="size-[120px] lg:absolute bottom-[250px] -left-[350px] -z-10"
+        className="size-[120px] hidden lg:absolute bottom-[250px] -left-[350px] -z-10"
       />
       <img
         src={"icons/ContactShapeRight.svg"}
         alt=""
-        className="size-[78px] lg:absolute top-[320px] -right-[200px] -z-10"
+        className="size-[78px] hidden lg:absolute top-[320px] -right-[200px] -z-10"
       />
       {/* SHAPE */}
     </main>

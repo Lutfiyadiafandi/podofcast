@@ -8,7 +8,7 @@ import CardArticle from "../../molecules/CardArticle";
 const RelatedArticle = () => {
   const [article] = useState(data.article);
   return (
-    <main className="py-[140px] px-4 xl:px-0 relative bg-background-pink">
+    <main className="py-[140px] px-4 xl:px-0 relative z-0 bg-background-pink">
       <Heading size="medium">Related Article</Heading>
       <Paragraph size="large" className="mt-5">
         News, tips, tricks and more

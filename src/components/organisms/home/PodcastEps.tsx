@@ -11,7 +11,7 @@ const PodcastEps = () => {
   return (
     <main
       id="recent-episodes"
-      className="py-[140px] px-4 xl:px-0 relative z-0 overflow-x-hidden bg-background-pink"
+      className="py-[140px] px-4 xl:px-0 relative z-0 bg-background-pink"
     >
       <IconSection variant="black" />
       <Heading size="medium">Recent Episodes</Heading>

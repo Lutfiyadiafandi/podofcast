@@ -10,7 +10,7 @@ const IconSection = ({ className, variant }: props) => {
     <img
       src={variant === "red" ? IconRed : IconBlack}
       alt="Icon"
-      className={`size-[120px] absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 ${className}`}
+      className={`size-[120px] absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 ${className}`}
     />
   );
 };

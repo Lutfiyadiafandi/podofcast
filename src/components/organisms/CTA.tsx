@@ -12,7 +12,7 @@ import Title from "../atoms/Title";
 
 const CTA = () => {
   return (
-    <main className="py-[140px] relative z-0 overflow-x-hidden bg-background-blue border-b-2 border-basic-500">
+    <main className="py-[140px] relative z-0 bg-background-blue border-b-2 border-basic-500">
       <IconSection variant="red" />
       <Tagline size="large" textColor="red" className="mx-auto">
         Beta
@@ -53,39 +53,41 @@ const CTA = () => {
         </div>
       </section>
 
-      <img
-        src={Home}
-        alt="Home"
-        className="w-[373px] absolute bottom-0 -left-[300px] lg:-left-0 -z-10"
-      />
-      <img
-        src={Play}
-        alt="Play"
-        className="w-[373px] absolute bottom-0 -right-[310px] lg:-right-0 -z-10"
-      />
+      <section className="overflow-x-hidden">
+        <img
+          src={Home}
+          alt="Home"
+          className="w-[373px] absolute bottom-0 -left-[300px] lg:-left-0 -z-10"
+        />
+        <img
+          src={Play}
+          alt="Play"
+          className="w-[373px] absolute bottom-0 -right-[310px] lg:-right-0 -z-10"
+        />
 
-      {/* SHAPE */}
-      <img
-        src="/icons/CTAShapeLeft3.svg"
-        alt="Icon"
-        className="w-[25.44px] absolute top-[400px] left-[90px] -z-10"
-      />
-      <img
-        src="/icons/CTAShapeLeft2.svg"
-        alt="Icon"
-        className="size-[64px] absolute top-[420px] left-[100px] -z-10"
-      />
-      <img
-        src="/icons/CTAShapeLeft.svg"
-        alt="Icon"
-        className="size-[140px] absolute top-[412px] -left-[8px] -z-10"
-      />
-      <img
-        src={"/icons/CTAShapeRight.svg"}
-        alt=""
-        className="w-[207px] absolute bottom-0 -right-[150px] lg:right-[120px] -z-20"
-      />
-      {/* SHAPE */}
+        {/* SHAPE */}
+        <img
+          src="/icons/CTAShapeLeft3.svg"
+          alt="Icon"
+          className="w-[25.44px] absolute top-[400px] left-[90px] -z-10"
+        />
+        <img
+          src="/icons/CTAShapeLeft2.svg"
+          alt="Icon"
+          className="size-[64px] absolute top-[420px] left-[100px] -z-10"
+        />
+        <img
+          src="/icons/CTAShapeLeft.svg"
+          alt="Icon"
+          className="size-[140px] absolute top-[412px] -left-[8px] -z-10"
+        />
+        <img
+          src={"/icons/CTAShapeRight.svg"}
+          alt=""
+          className="w-[207px] absolute bottom-0 -right-[150px] lg:right-[120px] -z-20"
+        />
+        {/* SHAPE */}
+      </section>
     </main>
   );
 };

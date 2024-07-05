@@ -17,7 +17,7 @@ const ArticleFull = () => {
     "productivity",
   ];
   return (
-    <main className="pt-[178px] pb-[140px] px-4 xl:px-0 relative max-w-screen-xl mx-auto">
+    <main className="pt-[178px] pb-[140px] px-4 xl:px-0 relative z-0 max-w-screen-xl mx-auto">
       <Search className="-mt-[215px] mx-auto" />
       <Title className="mt-[141px]">
         <Heading size="medium">Latest Posts</Heading>

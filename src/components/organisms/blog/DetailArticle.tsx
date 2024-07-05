@@ -7,7 +7,7 @@ import Doodle2 from "/images/Doodle2.png";
 
 const DetailArticle = () => {
   return (
-    <main className="pt-[100px] pb-[140px] relative max-w-screen-xl mx-auto">
+    <main className="pt-[100px] pb-[140px] relative z-0 max-w-screen-xl mx-auto">
       <section>
         <Title>
           <Heading size="small" className="text-center">
