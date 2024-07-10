@@ -6,12 +6,14 @@ import Blog from "./pages/Blog";
 import BlogDetail from "./pages/BlogDetail";
 import ScrollHandler from "./utils/ScrollHandler";
 import ScrollToTop from "./utils/ScrollToTop";
+import ScrollToTopBtn from "./utils/ScrollToTopBtn";
 
 function App() {
   return (
     <Router>
       <ScrollToTop />
       <ScrollHandler />
+      <ScrollToTopBtn />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

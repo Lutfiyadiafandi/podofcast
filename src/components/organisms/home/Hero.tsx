@@ -35,21 +35,21 @@ const Hero = () => {
             <img
               src={Spotify}
               alt={"Image Spotify"}
-              className={`max-w-[128px] h-fit`}
+              className={`max-w-[128px] h-fit object-cover`}
             />
           </figure>
           <figure className="max-w-[275px] xl:w-[275px] h-[84px] flex justify-center items-center">
             <img
               src={GooglePodcast}
               alt={"Image Google Podcast"}
-              className={`max-w-[198px] h-fit`}
+              className={`max-w-[198px] h-fit object-cover`}
             />
           </figure>
           <figure className="max-w-[275px] xl:w-[275px] h-[84px] flex justify-center items-center">
             <img
               src={Youtube}
               alt={"Image Youtube"}
-              className={`max-w-[124px] h-fit`}
+              className={`max-w-[124px] h-fit object-cover`}
             />
           </figure>
         </div>
