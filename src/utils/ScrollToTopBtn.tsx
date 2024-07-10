@@ -8,8 +8,12 @@ const ScrollToTop = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollTop = window.scrollY;
+      console.log({ lastScrollTop });
+      console.log({ currentScrollTop });
 
-      if (currentScrollTop > lastScrollTop && currentScrollTop > 400) {
+      if (currentScrollTop <= 700) {
+        setShowTopBtn(false);
+      } else if (currentScrollTop > lastScrollTop && currentScrollTop > 700) {
         setShowTopBtn(false);
       } else {
         setShowTopBtn(true);
@@ -34,7 +38,7 @@ const ScrollToTop = () => {
     <div className="relative">
       {showTopBtn && (
         <FaArrowAltCircleUp
-          className="fixed bottom-[40px] right-[40px] text-primary border-2 border-gray-300 rounded-full w-[40px] h-[40px] cursor-pointer bg-basic-100 z-30"
+          className="fixed bottom-[30px] right-[30px] md:bottom-[40px] md:right-[40px] text-primary rounded-full w-[40px] h-[40px] cursor-pointer bg-basic-100 z-30"
           onClick={goToTop}
         />
       )}
